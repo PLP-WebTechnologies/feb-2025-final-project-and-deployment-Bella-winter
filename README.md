@@ -7,11 +7,12 @@ By Pauline Mwangi- ## I decided to do this website to explore alot of elements c
 # 🌸 Luxury Wedding Florals  |  Bloom & Wed
 
 **BellaLuxury Wedding Florals** is a beautifully designed multi-page, fully responsive website that showcases exquisite floral design services tailored for weddings. This project demonstrates elegant front-end development using HTML5, CSS3, and JavaScript, with a focus on aesthetics, functionality, and user engagement.
+## For Deployment I have Uses Github pages
 
 ## 🌐 Live Demo
 
-[Click here to view the website](https://your-deployment-link.com)  
-*(Replace with actual Netlify, GitHub Pages, or Vercel link)*
+Click here:   https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Bella-winter/  
+
 
 ---
 
