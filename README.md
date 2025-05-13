@@ -7,7 +7,8 @@ By Pauline Mwangi- ## I decided to do this website to explore alot of elements c
 # 🌸 Luxury Wedding Florals  |  Bloom & Wed
 
 **BellaLuxury Wedding Florals** is a beautifully designed multi-page, fully responsive website that showcases exquisite floral design services tailored for weddings. This project demonstrates elegant front-end development using HTML5, CSS3, and JavaScript, with a focus on aesthetics, functionality, and user engagement.
-## For Deployment I have Uses Github pages
+
+## For Deployment I have Used Github pages
 
 ## 🌐 Live Demo
 
@@ -109,8 +110,9 @@ This project is open for educational or portfolio use. Please give credit if reu
 
 ## 🙌 Acknowledgments
 
-- Inspiration from luxury wedding and floral brands.
+- Inspiration from my own Imagination.
+- Inspired To learn.
 - Font Awesome for providing stunning iconography.
-- Special thanks to mentors and peers who gave feedback during development.
+- Special thanks to  peers who gave feedback during development.
 
 
