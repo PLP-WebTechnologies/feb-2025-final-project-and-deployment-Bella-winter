@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | BellaLuxury Wedding Florals</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Bloom & Wed</h1>
+                <p>Luxury Wedding Florals</p>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <div class="banner-content">
+            <h1>Contact Us</h1>
+            <p>Let's create your perfect wedding flowers together</p>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <h2>Get in Touch</h2>
+                    <p>We'd love to hear about your wedding plans and how we can help create the perfect floral experience for your special day.</p>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>(+254) 71234567</p>
+                            <p class="hours">Available Mon-Fri, 9am-5pm</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>info@bloomandwed.com</p>
+                            <p class="hours">We respond within 24 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Studio Location</h3>
+                            <p>234 Kimathi Street</p>
+                            <p>Prestige Plaza SP 26, Nyeri Towm</p>
+                            <p class="hours">Consultations by appointment only</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-contact">
+                        <h3>Connect With Us</h3>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h2>Schedule a Consultation</h2>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number <span class="required">*</span></label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="wedding-date">Wedding Date <span class="required">*</span></label>
+                            <input type="date" id="wedding-date" name="wedding-date" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="venue">Wedding Venue</label>
+                            <input type="text" id="venue" name="venue">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Estimated Budget</label>
+                            <select id="budget" name="budget">
+                                <option value="">Please select</option>
+                                <option value="1000-2500">Ksh10,000 - Ksh20,500</option>
+                                <option value="2500-5000">Ksh20,500 - Ksh50,000</option>
+                                <option value="5000-8000">Ksh50,000 - Ksh80,000</option>
+                                <option value="8000-12000">ksh80,000 - Ksh120,000</option>
+                                <option value="12000+">ksh120,000+</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="services">Services Interested In</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="services[]" value="Personal Flowers">
+                                    <span class="checkmark"></span>
+                                    Personal Flowers (Bouquets, Boutonnieres)
+                                </label>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="services[]" value="Ceremony Decor">
+                                    <span class="checkmark"></span>
+                                    Ceremony Decor
+                                </label>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="services[]" value="Reception Decor">
+                                    <span class="checkmark"></span>
+                                    Reception Decor
+                                </label>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="services[]" value="Installations">
+                                    <span class="checkmark"></span>
+                                    Special Installations
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Tell Us About Your Vision <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="referral">How Did You Hear About Us?</label>
+                            <select id="referral" name="referral">
+                                <option value="">Please select</option>
+                                <option value="Google">Google Search</option>
+                                <option value="Instagram">Instagram</option>
+                                <option value="Pinterest">Pinterest</option>
+                                <option value="Wedding Planner">Wedding Planner</option>
+                                <option value="Friend">Friend Referral</option>
+                                <option value="Past Client">Past Client</option>
+                                <option value="Wedding Website">Wedding Website</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-submission">
+                            <p class="required-note"><span class="required">*</span> Required fields</p>
+                            <button type="submit" class="btn-primary">Submit Inquiry</button>
+                        </div>
+                        
+                        <div id="form-success" class="form-message success">
+                            <p>Thank you for your inquiry! We'll be in touch within 24-48 hours.</p>
+                        </div>
+                        
+                        <div id="form-error" class="form-message error">
+                            <p>Oops! There was a problem submitting your form. Please try again.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>When should I book my wedding flowers?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>We recommend booking your wedding flowers 6-12 months in advance, especially for peak wedding season dates (May-October). This ensures availability and gives us ample time for planning and design.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Do you have a minimum budget requirement?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Our full-service wedding florals typically start at Ksh25,500, but we offer smaller à la carte options for intimate weddings or elopements. During your consultation, we'll work with you to maximize your budget while achieving your desired look.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>What is your payment schedule?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>We require a 25% non-refundable deposit to secure your date, with 50% due three months before your wedding and the final 25% due two weeks prior to your event.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Can I see a sample of my centerpieces before the wedding?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Yes, we offer mock-up appointments for our clients. These can be scheduled approximately 2-3 months before your wedding and include a sample centerpiece and bridal bouquet. Mock-ups are available for an additional fee which is then credited toward your final balance.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Do you provide rentals like vases and arches?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Yes, we offer a variety of vases, pedestals, arches, and other decor items for rent. All rental items are listed in your proposal with their respective prices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Bloom & Wed</h3>
+                    <p>Luxury Wedding Florals</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-phone"></i> (+254) 71234567</p>
+                    <p><i class="fas fa-envelope"></i> info@bloomandwed.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Kimathi Street, Nyeri Town</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 BellaLuxury Wedding Florals. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
